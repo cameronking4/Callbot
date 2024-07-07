@@ -3,7 +3,7 @@ import { Space_Grotesk } from "next/font/google"
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Positivus',
+  title: 'Callbot.ai',
   description: 'You goto place for anything digital',
 }
 

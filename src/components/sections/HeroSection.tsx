@@ -6,8 +6,8 @@ function HeroSection() {
     <section className="flex flex-col md:flex-row justify-between w-full">
       <div className="md:w-[50%]">
         <p className="text-h1Mobile md:text-h1 text-black font-bold leading-tight">
-          Navigating the <br /> digital landscape <br />
-          for success
+          Never pick up a<br /> customer support call <br />
+          again.
         </p>
         <div className="block md:hidden my-[35px]">
           <img
@@ -17,13 +17,11 @@ function HeroSection() {
         </div>
 
         <p className="text-p text-black my-[35px]">
-          Our digital marketing agency helps businesses grow and succeed online
-          through a range of services including SEO, PPC, social media
-          marketing, and content creation.
+          Sync your merchant Shopify data to answer calls 24/7 with Voice AI
         </p>
 
         <MainButton
-          text="Book a consultation"
+          text="Get your Callbot number"
           classes="bg-secondary text-white text-[18px] w-full md:w-[231px] hover:text-black"
         />
       </div>

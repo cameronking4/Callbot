@@ -8,39 +8,27 @@ function OurWorkingProcessSection() {
   const processes = [
     {
       label: "01",
-      title: "Consultation",
+      title: "Install Callbot from Shopify App Store",
       description:
         "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.",
     },
     {
       label: "02",
-      title: "Research and Strategy Development",
+      title: "Allow permissions & Generate Phone Number",
       description:
         "02 - During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.",
     },
     {
       label: "03",
-      title: "Implementation",
+      title: "Test & Configure",
       description:
         "03 - During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.",
     },
     {
       label: "04",
-      title: "Monitoring and Optimization",
+      title: "Add Callbot number to your Shopify site",
       description:
         "04 - During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.",
-    },
-    {
-      label: "05",
-      title: "Reporting and Communication",
-      description:
-        "05 - During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.",
-    },
-    {
-      label: "06",
-      title: "Continual Improvement",
-      description:
-        "06 - During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.",
     },
   ];
 
@@ -53,10 +41,10 @@ function OurWorkingProcessSection() {
     <section className="">
       <div className="flex flex-col md:flex-row gap-8 md:gap-[40px] items-center ">
         <div className="px-2 bg-primary inline-block font-medium text-h2 rounded-md">
-          Our Working Process
+          How it works
         </div>
         <p className="text-p">
-          Step-by-Step Guide to Achieving Your Business Goals
+          No Coding necessary. No Prompting necessary. Just Works.
         </p>
       </div>
 

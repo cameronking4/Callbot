@@ -14,7 +14,7 @@ function FooterSection() {
     <section className="bg-secondary rounded-t-[45px] p-8 md:p-[60px]">
       <div className="flex flex-col gap-8 md:flex-row justify-between">
         <div>
-          <img src="/images/footer_logo.png" alt="footer logo" />
+          <h1 className="text-4xl text-white">Callbot.ai</h1>
         </div>
         <div className="flex flex-col md:flex-row gap-[40px]">
           {links?.map((link, index) => (
@@ -53,7 +53,7 @@ function FooterSection() {
       </div>
       <div className="flex flex-col md:flex-row gap-1 md:gap-[40px]">
         <p className="text-white text-p">
-          © 2023 Positivus. All Rights Reserved.
+          © 2024 Callbot. All Rights Reserved.
         </p>
         <p className="text-white underline text-p">Privacy Policy</p>
       </div>

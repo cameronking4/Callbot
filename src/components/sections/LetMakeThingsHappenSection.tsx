@@ -6,16 +6,15 @@ function LetMakeThingsHappenSection() {
     <section className="bg-accent rounded-[45px] p-[50px] md:p-[60px] relative">
       <div className="md:pr-[22rem]">
         <p className="text-h3Mobile md:text-h3 font-medium">
-          Let&apos;s make things happen
+          It&apos;s your AI call center
         </p>
 
         <p className="my-[26px]">
-          Contact us today to learn more about how our digital marketing
-          services can help your business grow and succeed online.
+          Sync with realtime Shopify data and business information. Get your Callbot number today! Add to your Shopify site.
         </p>
 
         <MainButton
-          text="Get your free proposal"
+          text="Get your Callbot number"
           classes="bg-secondary text-white text-[18px] w-full md:w-[231px] hover:text-black"
         />
       </div>

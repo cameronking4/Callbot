@@ -39,7 +39,7 @@ function NavBar() {
       <div className=" hidden lg:block animate-in fade-in zoom-in bg-white p-4">
         <div className="flex justify-between mx-4 md:mx-[85px] items-center">
           <div>
-            <img src="/images/logo.png" alt="logo" />
+            <h1 className="text-4xl">Callbot.ai</h1>
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             {links.map((link, index) => (
