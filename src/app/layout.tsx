@@ -3,8 +3,8 @@ import { Space_Grotesk } from "next/font/google"
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Callbot.ai',
-  description: 'You goto place for anything digital',
+  title: 'AI Shopify AI',
+  description: 'Automate your customer support with a phone number synced to your Shopify store.',
 }
 
 const spaceGrotesk = Space_Grotesk({subsets: ["latin"], weight: ["300", "400", "500", "600",  "700"]})

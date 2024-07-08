@@ -3,29 +3,22 @@
 import { useState } from "react";
 import { X } from "lucide-react";
 import MainButton from "./MainButton";
+import Link from "next/link";
 
 function NavBar() {
   const [menu, setMenu] = useState(false);
   const links = [
     {
-      name: "About us",
-      link: "/",
-    },
-    {
       name: "Services",
-      link: "/",
+      link: "/#services",
     },
     {
-      name: "Use Cases",
-      link: "/",
+      name: "How it Works",
+      link: "/#howitworks",
     },
     {
       name: "Pricing",
-      link: "/",
-    },
-    {
-      name: "Blog",
-      link: "/",
+      link: "/pricing",
     },
   ];
 
@@ -37,22 +30,21 @@ function NavBar() {
     <div className="md:sticky md:top-0   md:shadow-none z-20 ">
       {/* DESKTOP */}
       <div className=" hidden lg:block animate-in fade-in zoom-in bg-white p-4">
-        <div className="flex justify-between mx-4 md:mx-[85px] items-center">
-          <div>
-            <h1 className="text-4xl">Callbot.ai</h1>
-          </div>
+        <div className="flex justify-between mx-4 md:mx-[85px] items-center px-12">
+          <Link href="/">
+            <h1 className="text-3xl">ShopifyNumber</h1>
+          </Link>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             {links.map((link, index) => (
-              <p
+              <Link
                 key={index}
-                className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
-              >
+                className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`} href={link.link} >
                 {link.name}
-              </p>
+              </Link>
             ))}
 
             <div className="flex items-center gap-[40px] select-none">
-              <MainButton text="Request a quoute" />
+              <MainButton text="Install Shopify App" />
             </div>
           </div>
         </div>
@@ -96,7 +88,7 @@ function NavBar() {
               ))}
 
               <div className="flex items-center gap-[40px] select-none">
-                <MainButton text="Request a quoute" />
+                <MainButton text="Install Shopify App" />
               </div>
             </div>
           </div>

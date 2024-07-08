@@ -50,7 +50,7 @@ function ServiceCard({
           <img src={image} alt="card icon" />
         </div>
       </div>
-      <Link href={link}>
+      {/* <Link href={link}>
         <div className="flex gap-2 items-center">
           <div>
             {darkArrow ? (
@@ -63,7 +63,7 @@ function ServiceCard({
             Learn more
           </p>
         </div>
-      </Link>
+      </Link> */}
     </div>
   );
 }

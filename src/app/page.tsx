@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main>
       <NavBar />
-      <div className="mx-8 p-2 md:mx-[100px] pt-[70px] flex flex-col gap-[140px]">
+      <div className="mx-8 px-12 md:mx-[100px] pt-[70px] flex flex-col gap-4">
         <HeroSection />
         {/* <LogoGroupSection /> */}
         <ServiceSection />
@@ -22,7 +22,7 @@ export default function Home() {
         <OurWorkingProcessSection />
         {/* <TeamSection /> */}
         <ContactUsSection />
-        <FooterSection />
+        {/* <FooterSection /> */}
       </div>
     </main>
   );

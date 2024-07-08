@@ -21,8 +21,8 @@ function HeroSection() {
         </p>
 
         <MainButton
-          text="Get your Callbot number"
-          classes="bg-secondary text-white text-[18px] w-full md:w-[231px] hover:text-black"
+          text="Get your Shopify number"
+          classes="bg-secondary text-white text-[18px] w-full md:w-[231px] hover:text-black px-4"
         />
       </div>
       <div className="hidden md:block">
