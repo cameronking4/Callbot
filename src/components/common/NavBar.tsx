@@ -57,7 +57,9 @@ function NavBar() {
       >
         <div className="flex justify-between mx-[10px]">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
-            <img src="/images/logo.png" alt="logo" className="w-[7rem]" />
+          <Link href="/">
+            <h1 className="text-3xl">ShopifyNumber</h1>
+          </Link>
           </div>
           <div className="flex items-center gap-[40px]">
             {menu ? (

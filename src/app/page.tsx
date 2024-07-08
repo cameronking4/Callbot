@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main>
       <NavBar />
-      <div className="mx-8 px-12 md:mx-[100px] pt-[70px] flex flex-col gap-4">
+      <div className="mx-8 md:mx-[100px] pt-[70px] flex flex-col gap-4 md:px-4 lg:px-12">
         <HeroSection />
         {/* <LogoGroupSection /> */}
         <ServiceSection />
